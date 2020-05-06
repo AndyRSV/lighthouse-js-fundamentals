@@ -1,10 +1,12 @@
-const sayHello = function (name) {
+const sayHelloConsole = function (name) {
   console.log('Hello, ' + name);
 
 
 }
 
-sayHello('andy');
-sayHello("Caliban");
-sayHello("Miranda");
-sayHello("Ferdinand");
+const returnSayHello = function (name) {
+  return "Hello, " + name
+}
+
+// sayHello('andy');
+returnSayHello("Caliban");
